@@ -1,0 +1,77 @@
+/* Contenedor de responsive*/
+
+@media only screen and (max-width: 800px){
+
+    .navbar .brand {
+        margin-left: 10px;
+        color: blueviolet;
+    }
+    
+    .navbar {
+    background-color: #fa6616fb;
+    height: 80px;
+    box-shadow: 4px 4px 15px 0px rgba(0, 0, 0, 42);
+    align-items: center;
+    }
+
+    .navbar .menu {
+        background-image: url(/img/purppleBenderS.jpeg);
+        background-size: cover;
+        
+        
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 90px;
+        /*background-color: #fa6616fb;*/
+        height: 50vh;
+        
+        transform: translateX(325%);
+        transition: all 2s;
+        border-radius: 15px;
+        border: none;
+    }
+
+    .navbar .menu-toggle {
+        transform: translateX(225%);
+        transition: all 1.8s;
+        box-shadow: 4px 4px 15px 0px rgba(0, 0, 0, 42);
+        
+    }
+
+    .menu li {
+        margin-top: 2em;
+
+    }
+
+    .navbar .menu-bar {
+        margin-right: 3em;
+        display:inline-table;
+        font-size: 2em; 
+        color: rgb(130, 31, 225);
+        cursor: pointer;
+    }
+
+    .navbar .menu-bar a:hover{
+        background-color: rgb(131, 31, 225);
+        transition: all .5s;
+        color: #000;
+        border-radius: 5px;
+    }
+
+    /* Seccion Para Main*/
+
+    .main .img {
+        width: 10em;
+        margin-bottom: auto;
+        margin-top: auto;
+    }
+
+    .main .button-content{
+        display: flex;
+        flex-direction: column;
+    }
+
+
+
+}

@@ -15,14 +15,14 @@
     }
 
     .navbar .menu {
-        background-image: url(/img/purppleBenderS.jpeg);
+        background-image:url(../img/purppleBenderS.jpeg);
         background-size: cover;
         
         display: flex;
         flex-direction: column;
         position: absolute;
         top: 90px;
-        /*background-color: #fa6616fb;*/
+        background-color: #fa6616fb;
         height: 50vh;
         
         transform: translateX(325%);

@@ -17,16 +17,16 @@
             </div>
             <nav id="nav">
                 <ul>
-                    <li><a href="#inicio"> INICIO</a></li>
-                    <li><a href="#sobreMi"> SOBRE_MI</a></li>
-                    <li><a href="#skills"> SKILLS</a></li>
-                    <li><a href="#curriculum"> CURRICULUM</a></li>
-                    <li><a href="#portfolio"> PORTFOLIO</a></li>
-                    <li><a href="#contacto"> CONTACTO</a></li>
+                    <li><a href="#inicio" onclick="seleccionar()"> INICIO</a></li>
+                    <li><a href="#sobreMi" onclick="seleccionar()"> SOBRE_MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()"> SKILLS</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()"> CURRICULUM</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()"> PORTFOLIO</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()"> CONTACTO</a></li>
                 </ul>
 
             </nav>
-            <div class="nav-responsive">
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
                 <i class="fa-solid fa-bars-staggered"></i>
 
             </div>
@@ -450,6 +450,21 @@
             </div>
         </div>
     </seccion>
+
+    <!--F O O T E R-->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-circle-up"></i>
+        </a>
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#"><i class="fa-brands fa-github"></i></a>
+            <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
 
 </body>
 </html>
